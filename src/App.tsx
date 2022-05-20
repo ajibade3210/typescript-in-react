@@ -1,11 +1,6 @@
 import React from "react";
 import "./App.css";
 
-//type declaration
-interface MessageProps {
-  message: string;
-}
-
 function App() {
   return (
     <>
@@ -14,8 +9,8 @@ function App() {
   );
 }
 
-// "Employee" component
-function Employee({ message }: MessageProps) {
+// change "Employee" component
+function Employee({ message }: { message: string }) {
   return (
     <>
       <h1>Welcome {message}</h1>
