@@ -18,7 +18,7 @@ function App() {
 const Employee: React.FC<MessageProps> = ({ message }) => {
   return (
     <>
-      <h1>{message}</h1>
+      <h1>Welcome {message}</h1>
     </>
   );
 };
