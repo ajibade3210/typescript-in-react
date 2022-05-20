@@ -1,6 +1,11 @@
 import React from "react";
 import "./App.css";
 
+//type declaration
+interface MessageProps {
+  message: string;
+}
+
 function App() {
   return (
     <>
@@ -10,12 +15,12 @@ function App() {
 }
 
 // change "Employee" component
-function Employee({ message }: { message: string }) {
+const Employee: React.FC<MessageProps> = ({ message }) => {
   return (
     <>
-      <h1>Welcome {message}</h1>
+      <h1>{message}</h1>
     </>
   );
-}
+};
 
 export default App;
