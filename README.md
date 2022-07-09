@@ -30,3 +30,4 @@ This article is a quick guide to get you started and comfortable using Typescrip
 ### In the project directory, you can run:
 
 #### `npm start`
+[Article Link](https://blog.openreplay.com/using-typescript-in-react-a-crash-course/)
